@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Kutuphane Otomasyonu</title>
+</head>
+<body>
+
+	<h2>List Of Books</h2>
+
+	<table>
+		<tr>
+			<td>Id</td> 
+			<td>Kitap Adı</td>
+			<td>Yazar</td>
+		</tr>
+
+		<tr th:each = "book:${books}">
+			<td th:text = "${books.bookId}">bookId</td>
+			<td th:text = "${books.bookName}">bookName</td>
+			<td th:text = "${books.author}">author</td>			
+		</tr>
+
+	</table>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
