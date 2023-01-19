@@ -22,7 +22,7 @@ public class BooksController {
 	
 	@GetMapping("/books")
 	public String getBooks(Model model ) {
-	//	model.addAttribute("books", bookService.getBooks());
+		model.addAttribute("books", bookService.getBooks());
 		return "books";
 	}
    
